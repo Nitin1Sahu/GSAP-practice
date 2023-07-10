@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+*::selection {
+    color: red;
+    background-color: white;
+}
+
+#nav {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    user-select: none;
+    cursor: pointer;
+    /* background-color: red; */
+}
+#nav h1 {
+    font-weight: 900;
+    /* font-size: 3rem; */
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+#nav ul li {
+    font-weight: 600;
+}
+#left-nav-part {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+#left-nav-part button {
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+
+#hero {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 20%;
+}
+#hero h1 {
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+#hero h1 span {
+    background-color: crimson;
+    font-size: 3rem;
+    margin: 0 20px;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+#image-1 {
+    position: absolute;
+    height: 300px;
+    left: 7%;
+    top: 15%;
+    border-radius: 20px;
+}
+#image-2 {
+    position: absolute;
+    height: 400px;
+    right: 7%;
+    bottom: 15%;
+    border-radius: 20px;
+}
+
+#scroll {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5%;
+    font-size: 20px;
+    font-weight: 900;
+}
